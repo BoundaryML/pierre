@@ -5,6 +5,7 @@ packages:
 minimumReleaseAge: 10080
 minimumReleaseAgeExclude:
   - '@types/bun'
+  - '@boundaryml/baml-grammar'
   - '@pierre/icons'
   - '@pierre/vscode-icons'
   - '@moonrepo/cli'

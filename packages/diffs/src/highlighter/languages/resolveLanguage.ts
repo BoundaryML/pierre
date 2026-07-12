@@ -8,6 +8,7 @@ import {
   ResolvedLanguages,
   ResolvingLanguages,
 } from './constants';
+import { ExtraBundledLanguages } from './extraBundledLanguages';
 
 export async function resolveLanguage(
   lang: Exclude<SupportedLanguages, 'text' | 'ansi'>
@@ -32,6 +33,12 @@ export async function resolveLanguage(
       Object.prototype.hasOwnProperty.call(bundledLanguages, lang)
     ) {
       loader = bundledLanguages[lang as BundledLanguage];
+    }
+    if (
+      loader == null &&
+      Object.prototype.hasOwnProperty.call(ExtraBundledLanguages, lang)
+    ) {
+      loader = ExtraBundledLanguages[lang];
     }
     if (loader == null) {
       throw new Error(

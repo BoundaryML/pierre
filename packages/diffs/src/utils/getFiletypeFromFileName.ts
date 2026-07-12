@@ -29,6 +29,7 @@ export const EXTENSION_TO_FILE_FORMAT: ExtensionFormatMap = {
   astro: 'astro',
   awk: 'awk',
   bal: 'ballerina',
+  baml: 'baml',
   sh: 'zsh',
   bash: 'zsh',
   bat: 'cmd',
