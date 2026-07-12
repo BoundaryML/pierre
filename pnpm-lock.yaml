@@ -166,8 +166,8 @@ catalogs:
       specifier: 0.23.0
       version: 0.23.0
     postcss:
-      specifier: 8.5.6
-      version: 8.5.6
+      specifier: 8.5.10
+      version: 8.5.10
     postcss-calc:
       specifier: 10.1.1
       version: 10.1.1
@@ -364,10 +364,10 @@ importers:
         version: 16.2.9(@babel/core@7.29.7)(@playwright/test@1.51.1)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       postcss:
         specifier: 'catalog:'
-        version: 8.5.6
+        version: 8.5.10
       postcss-import:
         specifier: 'catalog:'
-        version: 16.1.1(postcss@8.5.6)
+        version: 16.1.1(postcss@8.5.10)
       react:
         specifier: 19.2.7
         version: 19.2.7
@@ -509,10 +509,10 @@ importers:
         version: 6.0.0(@types/react@19.2.7)(react@19.2.7)
       postcss:
         specifier: 'catalog:'
-        version: 8.5.6
+        version: 8.5.10
       postcss-import:
         specifier: 'catalog:'
-        version: 16.1.1(postcss@8.5.6)
+        version: 16.1.1(postcss@8.5.10)
       react:
         specifier: 19.2.7
         version: 19.2.7
@@ -607,7 +607,7 @@ importers:
         version: 0.18.2
       '@tsdown/css':
         specifier: 'catalog:'
-        version: 0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.6))(postcss@8.5.6)(tsdown@0.22.3)(yaml@2.9.0)
+        version: 0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.10))(postcss@8.5.10)(tsdown@0.22.3)(yaml@2.9.0)
       '@types/hast':
         specifier: 'catalog:'
         version: 3.0.4
@@ -622,7 +622,7 @@ importers:
         version: 19.2.3(@types/react@19.2.7)
       autoprefixer:
         specifier: 'catalog:'
-        version: 10.4.22(postcss@8.5.6)
+        version: 10.4.22(postcss@8.5.10)
       jsdom:
         specifier: 'catalog:'
         version: 26.1.0
@@ -631,13 +631,13 @@ importers:
         version: 1.32.0
       postcss:
         specifier: 'catalog:'
-        version: 8.5.6
+        version: 8.5.10
       postcss-calc:
         specifier: 'catalog:'
-        version: 10.1.1(postcss@8.5.6)
+        version: 10.1.1(postcss@8.5.10)
       postcss-nesting:
         specifier: 'catalog:'
-        version: 14.0.0(postcss@8.5.6)
+        version: 14.0.0(postcss@8.5.10)
       react:
         specifier: 19.2.7
         version: 19.2.7
@@ -766,7 +766,7 @@ importers:
         version: 2.1.16(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@tsdown/css':
         specifier: 'catalog:'
-        version: 0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.6))(postcss@8.5.6)(tsdown@0.22.3)(yaml@2.9.0)
+        version: 0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.10))(postcss@8.5.10)(tsdown@0.22.3)(yaml@2.9.0)
       '@types/jsdom':
         specifier: 'catalog:'
         version: 28.0.1
@@ -778,13 +778,13 @@ importers:
         version: 19.2.3(@types/react@19.2.7)
       autoprefixer:
         specifier: 'catalog:'
-        version: 10.4.22(postcss@8.5.6)
+        version: 10.4.22(postcss@8.5.10)
       jsdom:
         specifier: 'catalog:'
         version: 26.1.0
       postcss:
         specifier: 'catalog:'
-        version: 8.5.6
+        version: 8.5.10
       react:
         specifier: 19.2.7
         version: 19.2.7
@@ -5198,12 +5198,12 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.5.15:
-    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
+  postcss@8.5.10:
+    resolution: {integrity: sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.5.6:
-    resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
+  postcss@8.5.15:
+    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
     engines: {node: ^10 || ^12 || >=14}
 
   preact-render-to-string@6.6.5:
@@ -8027,15 +8027,15 @@ snapshots:
       minimatch: 10.2.5
       path-browserify: 1.0.1
 
-  '@tsdown/css@0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.6))(postcss@8.5.6)(tsdown@0.22.3)(yaml@2.9.0)':
+  '@tsdown/css@0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.10))(postcss@8.5.10)(tsdown@0.22.3)(yaml@2.9.0)':
     dependencies:
       lightningcss: 1.32.0
-      postcss-load-config: 6.0.1(jiti@2.7.0)(postcss@8.5.6)(yaml@2.9.0)
+      postcss-load-config: 6.0.1(jiti@2.7.0)(postcss@8.5.10)(yaml@2.9.0)
       rolldown: 1.1.3
       tsdown: 0.22.3(@arethetypeswrong/core@0.18.2)(@tsdown/css@0.22.3)(@typescript/native-preview@7.0.0-dev.20260622.1)(typescript@6.0.3)
     optionalDependencies:
-      postcss: 8.5.6
-      postcss-import: 16.1.1(postcss@8.5.6)
+      postcss: 8.5.10
+      postcss-import: 16.1.1(postcss@8.5.10)
     transitivePeerDependencies:
       - jiti
       - tsx
@@ -8371,14 +8371,14 @@ snapshots:
 
   atomically@1.7.0: {}
 
-  autoprefixer@10.4.22(postcss@8.5.6):
+  autoprefixer@10.4.22(postcss@8.5.10):
     dependencies:
       browserslist: 4.28.2
       caniuse-lite: 1.0.30001799
       fraction.js: 5.3.4
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.5.6
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
 
   azure-devops-node-api@12.5.0:
@@ -10718,9 +10718,9 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  postcss-calc@10.1.1(postcss@8.5.6):
+  postcss-calc@10.1.1(postcss@8.5.10):
     dependencies:
-      postcss: 8.5.6
+      postcss: 8.5.10
       postcss-selector-parser: 7.1.4
       postcss-value-parser: 4.2.0
 
@@ -10731,26 +10731,26 @@ snapshots:
       postcss: 8.5.15
       postcss-safe-parser: 6.0.0(postcss@8.5.15)
 
-  postcss-import@16.1.1(postcss@8.5.6):
+  postcss-import@16.1.1(postcss@8.5.10):
     dependencies:
-      postcss: 8.5.6
+      postcss: 8.5.10
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.12
 
-  postcss-load-config@6.0.1(jiti@2.7.0)(postcss@8.5.6)(yaml@2.9.0):
+  postcss-load-config@6.0.1(jiti@2.7.0)(postcss@8.5.10)(yaml@2.9.0):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       jiti: 2.7.0
-      postcss: 8.5.6
+      postcss: 8.5.10
       yaml: 2.9.0
 
-  postcss-nesting@14.0.0(postcss@8.5.6):
+  postcss-nesting@14.0.0(postcss@8.5.10):
     dependencies:
       '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.4)
       '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.4)
-      postcss: 8.5.6
+      postcss: 8.5.10
       postcss-selector-parser: 7.1.4
 
   postcss-safe-parser@6.0.0(postcss@8.5.15):
@@ -10774,13 +10774,13 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  postcss@8.5.15:
+  postcss@8.5.10:
     dependencies:
       nanoid: 3.3.12
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  postcss@8.5.6:
+  postcss@8.5.15:
     dependencies:
       nanoid: 3.3.12
       picocolors: 1.1.1
@@ -11643,7 +11643,7 @@ snapshots:
       unconfig-core: 7.5.0
     optionalDependencies:
       '@arethetypeswrong/core': 0.18.2
-      '@tsdown/css': 0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.6))(postcss@8.5.6)(tsdown@0.22.3)(yaml@2.9.0)
+      '@tsdown/css': 0.22.3(jiti@2.7.0)(postcss-import@16.1.1(postcss@8.5.10))(postcss@8.5.10)(tsdown@0.22.3)(yaml@2.9.0)
       typescript: 6.0.3
     transitivePeerDependencies:
       - '@ts-macro/tsc'
